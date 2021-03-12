@@ -366,7 +366,10 @@ body {
 .block-of-names {
     padding-top: var(--margin-in-section);
     padding-bottom: var(--margin-in-section);
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: center;
+
 }
 .names {
     padding-bottom: 10px;
@@ -378,40 +381,40 @@ body {
     color: var(--paragraph-color);
 }
  /* icons */
-.social-links {
+.social-list {
     display: flex;
     align-items: center;
+    justify-content: center;
     justify-content: space-around;
-    margin-top: 16px;
-    padding-bottom: 30px;
-    padding-left: 32px;
-    padding-right: 32px;    
+    margin-top: 16px;  
 }
-
-.social-action {
+.social-link{
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--social-links-color);
     width: 44px;
     height: 44px;
-   
+    
 }
-.social-action:hover,
-.social-action:focus {
+.social-link:hover,
+.social-link:focus {
     background-color: var(--accent-color);
     border-radius: 50%;
 }
+.social-link:hover, 
+.social-link:focus,
+.social-icon:focus,
+.social-icon:hover{
+    fill: #fff;
+}
 
-.social-link-action {
-    fill:currentColor;
+.social-icon {
+    fill: currentColor;
     width: 20px;
     height: 20px;
 }
-.social-link-action:focus,
-.social-link-action:hover {
-    fill: #fff;
-}
+
  
 /* our staff end */
 
@@ -580,8 +583,7 @@ body {
     line-height: 1.14;
     letter-spacing: var(--letter-spacing);
     text-transform: uppercase;
-    color: #FFFFFF;
-    padding-top: 72px; 
+    color: #FFFFFF; 
 }
 
  /* флексы */
