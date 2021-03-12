@@ -593,7 +593,6 @@ body {
     display: flex;
     flex-direction: column; 
 }
-
 .footer-box  {
     display: flex;
     align-items: center;
