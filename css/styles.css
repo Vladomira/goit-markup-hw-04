@@ -510,7 +510,6 @@ body {
     margin-top: calc(-1 * var(--margin-in-section));
 }
 .projects>.list {
-    flex-basis: calc(100/3 - 30px);
     margin-left: var(--margin-in-section);
     margin-top: var(--margin-in-section);
 }
@@ -536,11 +535,19 @@ body {
     line-height: 1.9;
     letter-spacing: var(--letter-spacing);
     color: var(--paragraph-color);
-    /* padding-bottom: 20px; */
 }
+
+.projects-card:hover,
+.projects-card:focus {
+    box-shadow:0px 1px 1px rgba(0, 0, 0, 0.12),
+     0px 4px 4px rgba(0, 0, 0, 0.06), 
+     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 /* prtfolio main end*/
 
 /* end main */
+
 
 
 /* ==========footer=========== */
@@ -592,7 +599,7 @@ body {
 .footer-class {
     display: flex;
     flex-direction: column; 
-}
+} 
 .footer-box  {
     display: flex;
     align-items: center;
