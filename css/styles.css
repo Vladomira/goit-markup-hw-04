@@ -251,8 +251,9 @@ body {
 }
 
 /* skills-icons */
-.skills-icons {
-    fill: currentColor;
+.skills {
+    padding-top: var(--padding-of-section);
+    padding-bottom: var(--padding-of-section);
 }
 .skills-block {
     display: flex;
@@ -293,7 +294,9 @@ body {
     letter-spacing: var(--letter-spacing);
     color: var(--paragraph-color);
 }
-
+.skills-icons {
+    fill: currentColor;
+}
 
 /* end skills */
 
@@ -412,7 +415,6 @@ body {
     width: 20px;
     height: 20px;
 }
-
  
 /* our staff end */
 
@@ -540,7 +542,6 @@ body {
     letter-spacing: var(--letter-spacing);
     color: var(--paragraph-color);
 }
-
 .projects-link:hover,
 .projects-link:focus {
     box-shadow:0px 1px 1px rgba(0, 0, 0, 0.12),
